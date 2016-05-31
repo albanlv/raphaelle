@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'Electrolize';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Electrolize'), local('Electrolize-Regular'), url(http://themes.googleusercontent.com/static/fonts/electrolize/v2/DDy9sgU2U7S4xAwH5thnJ4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+
+body {
+	background: url("groovepaper.png") repeat top left;
+	font-family: 'Electrolize';
+}
+
+.container{
+	width: 100%;
+	position: relative;
+	overflow:hidden;
+}
+
+#sp-container {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+	background: -webkit-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2) 35%, rgba(0, 0, 0, 0.5));
+	background: -moz-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2) 35%, rgba(0, 0, 0, 0.5));
+	background: -ms-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2) 35%, rgba(0, 0, 0, 0.5));
+	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2) 35%, rgba(0, 0, 0, 0.5));
+}
+.sp-content {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	z-index: 1000;
+	
+}
+#sp-container h2 {
+	position: absolute;
+	top: 50%;
+	line-height: 100px;
+	height: 90px;
+	margin-top: -50px;
+	font-size: 90px;
+	width: 100%;
+	text-align: center;
+	color: transparent;
+	-webkit-animation: blurFadeInOut .5s linear backwards;
+	-moz-animation: blurFadeInOut .5s linear backwards;
+	-ms-animation: blurFadeInOut .5s linear backwards;
+	animation: blurFadeInOut .5s linear backwards;
+}
+#sp-container h2.frame-1 {
+	font-size: 25px;
+	-webkit-animation-delay: 0s;
+	-moz-animation-delay: 0s;
+	-ms-animation-delay: 0s;
+	animation-delay: 0s;
+}
+#sp-container h2.frame-2 {
+	font-size: 50px;
+	-webkit-animation-delay: 0.5s;
+	-moz-animation-delay: .5s;
+	-ms-animation-delay: .5s;
+	animation-delay: .5s;
+}
+#sp-container h2.frame-3 {
+	font-size: 100px;
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-ms-animation-delay:1s;
+	animation-delay: 1s;
+}
+#sp-container h2.frame-4 {
+	font-size: 200px;
+	-webkit-animation-delay: 1.6s;
+	-moz-animation-delay: 1.6s;
+	-ms-animation-delay: 1.6s;
+	animation-delay: 1.6s;
+}
+#sp-container h2.frame-5 {
+	font-size: 190px;
+	-webkit-animation-delay: 2.1s;
+	-moz-animation-delay: 2.1s;
+	-ms-animation-delay: 2.1s;
+	animation-delay: 2.1s;
+}
+#sp-container h2.frame-6 {
+	font-size: 190px;
+	-webkit-animation-delay: 2.6s;
+	-moz-animation-delay: 2.6s;
+	-ms-animation-delay: 2.6s;
+	animation-delay: 2.6s;
+}
+#sp-container h2.frame-7 {
+	font-size: 190px;
+	-webkit-animation-delay: 3s;
+	-moz-animation-delay: 3s;
+	-ms-animation-delay: 3s;
+	animation-delay: 3s;
+}
+#sp-container h2.frame-8 {
+	font-size: 190px;
+	-webkit-animation-delay: 3.3s;
+	-moz-animation-delay: 3.3s;
+	-ms-animation-delay: 3.3s;
+	animation-delay: 3.3s;
+}
+#sp-container h2.frame-9 {
+	font-size: 190px;
+	-webkit-animation-delay: 3.6s;
+	-moz-animation-delay: 3.6s;
+	-ms-animation-delay: 3.6s;
+	animation-delay: 3.6s;
+}
+#sp-container h2.frame-10 {
+	font-size: 190px;
+	-webkit-animation-delay: 4s;
+	-moz-animation-delay: 4s;
+	-ms-animation-delay: 4s;
+	animation-delay: 4s;
+}
+#sp-container h2.frame-11 {
+	font-size: 100px;
+	-webkit-animation-delay: 4.4s;
+	-moz-animation-delay: 4.4s;
+	-ms-animation-delay: 4.4s;
+	animation-delay: 4.4s;
+}
+#sp-container h2.frame-12 {
+	font-size: 120px;
+	-webkit-animation-delay: 4.8s;
+	-moz-animation-delay: 4.8s;
+	-ms-animation-delay: 4.8s;
+	animation-delay: 4.8s;
+}
+#sp-container h2.frame-13 {
+	font-size: 120px;
+	-webkit-animation-delay: 5.2s;
+	-moz-animation-delay: 5.2s;
+	-ms-animation-delay: 5.2s;
+	animation-delay: 5.2s;
+}
+#sp-container h2.frame-14 {
+	font-size: 120px;
+	-webkit-animation-delay: 5.6s;
+	-moz-animation-delay: 5.6s;
+	-ms-animation-delay: 5.6s;
+	animation-delay: 5.6s;
+}
+#sp-container h2.frame-15 {
+	font-size: 120px;
+	-webkit-animation-delay: 6s;
+	-moz-animation-delay: 6s;
+	-ms-animation-delay: 6s;
+	animation-delay: 6s;
+}
+#sp-container h2.frame-16 {
+	font-size: 190px;
+	-webkit-animation-delay: 6.5s;
+	-moz-animation-delay: .5s;
+	-ms-animation-delay: 6.5s;
+	animation-delay: 6.5s;
+}
+#sp-container h2.frame-17 {
+	font-size: 190px;
+	-webkit-animation-delay: 7.8s;
+	-moz-animation-delay: 7.8s;
+	-ms-animation-delay: 7.8s;
+	animation-delay: 7.8s;
+}
+#sp-container h2.frame-18 {
+	font-size: 190px;
+	-webkit-animation-delay: 8.2s;
+	-moz-animation-delay: 8.2s;
+	-ms-animation-delay: 8.2s;
+	animation-delay: 8.2s;
+}
+#sp-container h2.frame-19 {
+	font-size: 190px;
+	-webkit-animation-delay: 9.5s;
+	-moz-animation-delay: 9.5s;
+	-ms-animation-delay: 9.5s;
+	animation-delay: 9.5s;
+}
+#sp-container h2.frame-20 {
+	font-size: 190px;
+	-webkit-animation-delay: 10.8s;
+	-moz-animation-delay: 10.8s;
+	-ms-animation-delay: 10.8s;
+	animation-delay: 10.8s;
+}
+#sp-container h2.frame-21 {
+	font-size: 100px;
+	-webkit-animation-delay: 11.2s;
+	-moz-animation-delay: 11.2s;
+	-ms-animation-delay: 11.2s;
+	animation-delay: 11.2s;
+}
+#sp-container h2.frame-22 {
+	font-size: 50px;
+	-webkit-animation-delay: 11.5s;
+	-moz-animation-delay: 11.5s;
+	-ms-animation-delay: 11.5s;
+	animation-delay: 11.5s;
+}
+/**/
+@-webkit-keyframes blurFadeInOut{
+	0%{
+		opacity: 0;
+		text-shadow: 0px 0px 5px #255;
+	}
+	20%,75%{
+		opacity: 1;
+		text-shadow: 0px 0px 1px #255;
+		
+	}
+	100%{
+		opacity: 0;
+		text-shadow: 0px 0px 5px #255;
+	}
+}
+@-moz-keyframes blurFadeInOut{
+	0%{
+		opacity: 0;
+		text-shadow: 0px 0px 5px #696969;
+	}
+	20%,75%{
+		opacity: 1;
+		text-shadow: 0px 0px 1px #696969;
+		
+	}
+	100%{
+		opacity: 0;
+		text-shadow: 0px 0px 5px #696969;
+	}
+}
+@keyframes blurFadeInOut{
+	0%{
+		opacity: 0;
+		text-shadow: 0px 0px 5px #696969;
+	}
+	20%,75%{
+		opacity: 1;
+		text-shadow: 0px 0px 1px #696969;
+	
+	}
+	100%{
+		opacity: 0;
+		text-shadow: 0px 0px 5px #696969;
+	}
+}
+
+
+
+
