@@ -1,13 +1,14 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
 @font-face {
-  font-family: 'Electrolize';
+  font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 300;
-  src: local('Electrolize'), local('Electrolize-Regular'), url(http://themes.googleusercontent.com/static/fonts/electrolize/v2/DDy9sgU2U7S4xAwH5thnJ4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
+  font-weight: 400;
 }
 
 body {
-	background: url("groovepaper.png") repeat top left;
-	font-family: 'Electrolize';
+	background: url("black-linen.png") repeat top left;
+	font-family: 'Montserrat';
 }
 
 .container{
@@ -210,46 +211,46 @@ body {
 @-webkit-keyframes blurFadeInOut{
 	0%{
 		opacity: 0;
-		text-shadow: 0px 0px 5px #255;
+		text-shadow: 0px 0px 5px #F8F8FF;
 	}
 	20%,75%{
 		opacity: 1;
-		text-shadow: 0px 0px 1px #255;
+		text-shadow: 0px 0px 1px #F8F8FF;
 		
 	}
 	100%{
 		opacity: 0;
-		text-shadow: 0px 0px 5px #255;
+		text-shadow: 0px 0px 5px #F8F8FF;
 	}
 }
 @-moz-keyframes blurFadeInOut{
 	0%{
 		opacity: 0;
-		text-shadow: 0px 0px 5px #696969;
+		text-shadow: 0px 0px 5px #F8F8FF;
 	}
 	20%,75%{
 		opacity: 1;
-		text-shadow: 0px 0px 1px #696969;
+		text-shadow: 0px 0px 1px #F8F8FF;
 		
 	}
 	100%{
 		opacity: 0;
-		text-shadow: 0px 0px 5px #696969;
+		text-shadow: 0px 0px 5px #F8F8FF;
 	}
 }
 @keyframes blurFadeInOut{
 	0%{
 		opacity: 0;
-		text-shadow: 0px 0px 5px #696969;
+		text-shadow: 0px 0px 5px #F8F8FF;
 	}
 	20%,75%{
 		opacity: 1;
-		text-shadow: 0px 0px 1px #696969;
+		text-shadow: 0px 0px 1px #F8F8FF;
 	
 	}
 	100%{
 		opacity: 0;
-		text-shadow: 0px 0px 5px #696969;
+		text-shadow: 0px 0px 5px #F8F8FF;
 	}
 }
 
