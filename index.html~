@@ -16,7 +16,7 @@
 	<link rel="stylesheet" href="css/animation.css">
 	<script>
 		setInterval(function(){
-		var container = document.getElementById('content');
+		var container = document.getElementById('sp-container');
 		var tmp = container.innerHTML;
 		container.innerHTML= tmp;
 		}, 12000 // length of the whole show in milliseconds
@@ -31,7 +31,7 @@
         <div class="main-container">
             <div class="main wrapper clearfix">
 
-    		<div class="sp-container">
+    		<div id="sp-container">
 			<div class="sp-content frame">
 	       			 <div class="sp-globe"></div>
             				<h2 class="frame-1">Raphaëlle</h2>

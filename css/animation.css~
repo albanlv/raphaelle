@@ -4,7 +4,6 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
-  src: local('Montserrat'), local('Montserrat-Regular'), url(https://fonts.googleapis.com/css?family=Montserrat);) format('woff');
 }
 
 body {
@@ -63,52 +62,52 @@ body {
 }
 #sp-container h2.frame-2 {
 	font-size: 50px;
-	-webkit-animation-delay: 0.5s;
-	-moz-animation-delay: .5s;
-	-ms-animation-delay: .5s;
-	animation-delay: .5s;
+	-webkit-animation-delay: 0.2s;
+	-moz-animation-delay: .2s;
+	-ms-animation-delay: .2s;
+	animation-delay: .2s;
 }
 #sp-container h2.frame-3 {
 	font-size: 100px;
-	-webkit-animation-delay: 1s;
-	-moz-animation-delay: 1s;
-	-ms-animation-delay:1s;
-	animation-delay: 1s;
+	-webkit-animation-delay: .4s;
+	-moz-animation-delay: .4s;
+	-ms-animation-delay:.4s;
+	animation-delay: .4s;
 }
 #sp-container h2.frame-4 {
 	font-size: 200px;
-	-webkit-animation-delay: 1.6s;
-	-moz-animation-delay: 1.6s;
-	-ms-animation-delay: 1.6s;
-	animation-delay: 1.6s;
+	-webkit-animation-delay: .8s;
+	-moz-animation-delay: .8s;
+	-ms-animation-delay: .8s;
+	animation-delay: .8s;
 }
 #sp-container h2.frame-5 {
-	font-size: 190px;
-	-webkit-animation-delay: 2.1s;
-	-moz-animation-delay: 2.1s;
-	-ms-animation-delay: 2.1s;
-	animation-delay: 2.1s;
+	font-size: 150px;
+	-webkit-animation-delay: 1.2s;
+	-moz-animation-delay: 1.2s;
+	-ms-animation-delay: 1.2s;
+	animation-delay: 1.2s;
 }
 #sp-container h2.frame-6 {
 	font-size: 190px;
-	-webkit-animation-delay: 2.6s;
-	-moz-animation-delay: 2.6s;
-	-ms-animation-delay: 2.6s;
-	animation-delay: 2.6s;
+	-webkit-animation-delay: 1.5s;
+	-moz-animation-delay: 1.5s;
+	-ms-animation-delay: 1.5s;
+	animation-delay: 1.5s;
 }
 #sp-container h2.frame-7 {
+	font-size: 150px;
+	-webkit-animation-delay: 2.4s;
+	-moz-animation-delay: 2.4s;
+	-ms-animation-delay: 2.4s;
+	animation-delay: 2.4s;
+}
+#sp-container h2.frame-8 {
 	font-size: 190px;
 	-webkit-animation-delay: 3s;
 	-moz-animation-delay: 3s;
 	-ms-animation-delay: 3s;
 	animation-delay: 3s;
-}
-#sp-container h2.frame-8 {
-	font-size: 190px;
-	-webkit-animation-delay: 3.3s;
-	-moz-animation-delay: 3.3s;
-	-ms-animation-delay: 3.3s;
-	animation-delay: 3.3s;
 }
 #sp-container h2.frame-9 {
 	font-size: 190px;
